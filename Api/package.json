@@ -1,0 +1,29 @@
+{
+  "name": "api-invoice-generator",
+  "version": "1.0.0",
+  "description": "API for invoice generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test needs to be configured\"",
+    "esc": "./node_modules/.bin/eslint index.js src/* --ext js",
+    "start": "npm run esc && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "hapi": "^16.6.0",
+    "joi": "^13.0.2",
+    "mocha": "^4.0.1",
+    "node-uuid": "^1.4.8",
+    "sinon": "^4.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
